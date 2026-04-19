@@ -1,3 +1,3 @@
-#4-wheel-robot
 # 4-wheel-robot
-# 4-wheel-robot
+
+Prototype of four wheeled robot
