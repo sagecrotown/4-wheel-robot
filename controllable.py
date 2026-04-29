@@ -30,38 +30,6 @@ y = 0
 w = 0
 vel = 1
 
-def left(vel):
-	motor1.backward(speed=vel)
-	motor2.forward(speed=vel)
-	motor3.backward(speed=vel)
-	motor4.forward(speed=vel)
-
-
-def right(vel):
-	motor1.forward(speed=vel)
-	motor2.backward(speed=vel)
-	motor3.forward(speed=vel)
-	motor4.backward(speed=vel)
-
-def forward(vel):
-	motor1.forward(speed=vel)
-	motor2.forward(speed=vel)
-	motor3.forward(speed=vel)
-	motor4.forward(speed=vel)
-
-def backward(vel):
-	motor1.backward(speed=vel)
-	motor2.backward(speed=vel)
-	motor3.backward(speed=vel)
-	motor4.backward(speed=vel)
-
-def stop():
-	motor1.stop()
-	motor2.stop()
-	motor3.stop()
-	motor4.stop()
-
-
 print("listening for controller input ... ")
 
 for event in dev.read_loop():
